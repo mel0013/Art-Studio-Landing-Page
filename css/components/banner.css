@@ -1,0 +1,33 @@
+.banner {
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  color: rgb(39, 39, 39);
+  padding: 16px 16px;
+}
+
+.hero-text p {
+  color: rgb(49, 49, 37);
+  font-size: 20px;
+}
+
+.hero-text a {
+  color: white;
+  background-color: rgb(9, 153, 219);
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hero-text a:hover {
+  background-color: rgb(247, 233, 46);
+  color: rgb(9, 153, 219);
+  border: 2px solid rgb(9, 153, 219);
+}

@@ -1,0 +1,72 @@
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.container h2 {
+  margin: 24px auto;
+  color: rgb(79, 185, 235);
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 4px 4px 10px rgba(86, 97, 116, 0.5);
+  text-align: center;
+  padding: 26px 24px;
+}
+
+.card img {
+  height: 200px;
+  border-radius: 8px;
+  padding-bottom: 8px;
+}
+
+.card p {
+  color: grey;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+
+/* BUTTONS */
+
+.card a {
+  margin: 24px 0;
+  font-size: 16px;
+  padding: 8px;
+  outline: 0;
+  border: 1px solid rgb(79, 185, 235);
+  cursor: pointer;
+  position: relative;
+  color: rgb(0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.card a:after {
+  content: "";
+  background-color: rgb(247, 233, 46);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.card a:hover:after {
+  top: 0px;
+  left: 0px;
+}

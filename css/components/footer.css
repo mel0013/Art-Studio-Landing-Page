@@ -1,0 +1,38 @@
+.footer {
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to top, #4fb9eb, #a5dffa);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: fixed;
+}
+
+.footer-links {
+  margin: 16px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links p {
+  margin: 0;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  color:rgb(247, 233, 46);
+  font-size: 32px;
+  margin: 8px;
+}
+
+.social-icon:hover {
+  color: rgb(9, 153, 219);
+}
